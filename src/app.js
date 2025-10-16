@@ -9,7 +9,7 @@ app.use(cors());
 const httpServer = http.createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://taskforjob01.netlify.app/",
     methods: ["GET", "POST"],
   },
 });
